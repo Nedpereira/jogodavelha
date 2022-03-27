@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
+
+body{
+    text-align: center;
+    background-color: #005f73;
+    color: #001219;
+}
+
+.titulo, .logo{
+    font-family: 'Fredoka', sans-serif;
+    display: inline-block;
+    text-align: center;
+    color: #001219;
+    
+}
+.quadrado{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: #001219;
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+    margin: 2px auto;
+}
+.jogador, .vencedor{
+width: 30px;
+height: 30px;
+margin:1px;
+display: inline-block;
+}
+.jog, .ven{
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin: 5px;
+    color: #ee9b00;
+}
+.botao{
+    border-radius: 5px;
+    margin: 40px;
+    cursor: pointer;
+    display: inline-block;
+    background: #ee9b00;
+}
+
+.botao:hover{
+
+    cursor: pointer;
+    background-color: #ca6702;
+
+}
